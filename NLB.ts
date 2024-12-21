@@ -24,7 +24,6 @@ const header = {
 export interface NLBResponse {
     totalRecords: number;
     count: number;
-    offset: number;
     hasMoreRecords: boolean,
     nextRecordsOffset: number,
     setId: number,

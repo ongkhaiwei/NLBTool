@@ -8,10 +8,8 @@
   },
   "dependencies": {
     "@ibm-generative-ai/node-sdk": "^3.2.4",
-    "bee-agent-framework": "^0.0.53",
-    "dotenv": "^16.4.5",
-    "pg": "^8.13.1",
-    "sequelize": "^6.37.5"
+    "bee-agent-framework": "^0.0.54",
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
     "tsx": "^4.19.2"
