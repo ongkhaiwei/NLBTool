@@ -13,7 +13,7 @@ const llm = WatsonXChatLLM.fromPreset(model_id, {
   projectId: process.env.WATSONX_PROJECT_ID,
   parameters: {
     decoding_method: "greedy",
-    max_new_tokens: 2000,
+    max_new_tokens: 1000,
   },
 });
 
@@ -28,7 +28,7 @@ const agent = new BeeAgent({
 
 async function main() {
 
-  let chatQuestion = "I would like to borrow a book with title why nation fails"
+  let chatQuestion = "I would like to borrow a book with title why nations fail"
   let prompt = chatQuestion
 
   const response = await agent
